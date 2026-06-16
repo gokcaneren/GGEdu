@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GGEdu.API/GGEdu.API.csproj" />
+    <Project Path="src/GGEdu.Application/GGEdu.Application.csproj" Id="93634ca1-5a23-4bbb-9c2f-72f7bbbd5e6d" />
+    <Project Path="src/GGEdu.CompositionRoot/GGEdu.CompositionRoot.csproj" Id="46b6fddc-081a-4ae2-9ed8-077ad743c270" />
+    <Project Path="src/GGEdu.Core/GGEdu.Core.csproj" Id="d23694bb-1c53-4828-b33c-124cbe60c0d7" />
+    <Project Path="src/GGEdu.Infrastructure/GGEdu.Infrastructure.csproj" Id="58dd40fc-1043-449c-9a25-1cebeb4ab136" />
+    <Project Path="src/GGEdu.Localization/GGEdu.Localization.csproj" Id="0a11d57d-39d1-4c1a-9a30-8f558732d7a5" />
+  </Folder>
+</Solution>

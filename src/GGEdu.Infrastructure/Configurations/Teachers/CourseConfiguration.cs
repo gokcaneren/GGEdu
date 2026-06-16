@@ -1,0 +1,19 @@
+﻿using GGEdu.Core.Entities.Teachers.Courses;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace GGEdu.Infrastructure.Configurations.Teachers
+{
+    public class CourseConfiguration : IEntityTypeConfiguration<Course>
+    {
+        public void Configure(EntityTypeBuilder<Course> builder)
+        {
+            builder.HasKey(c => c.Id);
+
+            builder.Property(c => c.Name).IsRequired();
+            builder.Property(c => c.Code).IsRequired();
+
+            builder.HasIndex(c => c.Code).IsUnique();
+        }
+    }
+}

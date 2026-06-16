@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.application\\scheduling\\generateavailabilityslotsfromtemplatesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|solutionrelative:src\\teachingplatform.application\\scheduling\\generateavailabilityslotsfromtemplatesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A4147C-3D06-3799-AFE9-270284A17CD1}|src\\TeachingPlatform.Api\\TeachingPlatform.Api.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A4147C-3D06-3799-AFE9-270284A17CD1}|src\\TeachingPlatform.Api\\TeachingPlatform.Api.csproj|solutionrelative:src\\teachingplatform.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.application\\scheduling\\createavailabilityslotusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|solutionrelative:src\\teachingplatform.application\\scheduling\\createavailabilityslotusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.application\\bookings\\createbookingrequestusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|solutionrelative:src\\teachingplatform.application\\bookings\\createbookingrequestusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.application\\bookings\\decidebookingrequestusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|solutionrelative:src\\teachingplatform.application\\bookings\\decidebookingrequestusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.application\\abstractions\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|solutionrelative:src\\teachingplatform.application\\abstractions\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.application\\abstractions\\ibookingrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81672DB6-1202-6771-D4E2-FB03BCFD0259}|src\\TeachingPlatform.Application\\TeachingPlatform.Application.csproj|solutionrelative:src\\teachingplatform.application\\abstractions\\ibookingrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F02D11-7035-6B04-4D7C-7E341A2E9CA1}|src\\TeachingPlatform.Domain\\TeachingPlatform.Domain.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.domain\\availabilityslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F02D11-7035-6B04-4D7C-7E341A2E9CA1}|src\\TeachingPlatform.Domain\\TeachingPlatform.Domain.csproj|solutionrelative:src\\teachingplatform.domain\\availabilityslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F02D11-7035-6B04-4D7C-7E341A2E9CA1}|src\\TeachingPlatform.Domain\\TeachingPlatform.Domain.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.domain\\availabilitytemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F02D11-7035-6B04-4D7C-7E341A2E9CA1}|src\\TeachingPlatform.Domain\\TeachingPlatform.Domain.csproj|solutionrelative:src\\teachingplatform.domain\\availabilitytemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F02D11-7035-6B04-4D7C-7E341A2E9CA1}|src\\TeachingPlatform.Domain\\TeachingPlatform.Domain.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.domain\\teacherprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F02D11-7035-6B04-4D7C-7E341A2E9CA1}|src\\TeachingPlatform.Domain\\TeachingPlatform.Domain.csproj|solutionrelative:src\\teachingplatform.domain\\teacherprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14F3A7E3-7860-FF54-933E-962176B4D6EC}|src\\TeachingPlatform.Infrastructure\\TeachingPlatform.Infrastructure.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.infrastructure\\teachingplatformdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14F3A7E3-7860-FF54-933E-962176B4D6EC}|src\\TeachingPlatform.Infrastructure\\TeachingPlatform.Infrastructure.csproj|solutionrelative:src\\teachingplatform.infrastructure\\teachingplatformdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14F3A7E3-7860-FF54-933E-962176B4D6EC}|src\\TeachingPlatform.Infrastructure\\TeachingPlatform.Infrastructure.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\teachingplatform.infrastructure\\teachingplatformdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14F3A7E3-7860-FF54-933E-962176B4D6EC}|src\\TeachingPlatform.Infrastructure\\TeachingPlatform.Infrastructure.csproj|solutionrelative:src\\teachingplatform.infrastructure\\teachingplatformdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenerateAvailabilitySlotsFromTemplatesUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Scheduling\\GenerateAvailabilitySlotsFromTemplatesUseCase.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Application\\Scheduling\\GenerateAvailabilitySlotsFromTemplatesUseCase.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Scheduling\\GenerateAvailabilitySlotsFromTemplatesUseCase.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Application\\Scheduling\\GenerateAvailabilitySlotsFromTemplatesUseCase.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAWwB0AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T05:35:47.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeachersController.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Api\\Controllers\\TeachersController.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Api\\Controllers\\TeachersController.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Api\\Controllers\\TeachersController.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Api\\Controllers\\TeachersController.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAowNYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T05:35:14.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateAvailabilitySlotUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Scheduling\\CreateAvailabilitySlotUseCase.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Application\\Scheduling\\CreateAvailabilitySlotUseCase.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Scheduling\\CreateAvailabilitySlotUseCase.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Application\\Scheduling\\CreateAvailabilitySlotUseCase.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T05:35:05.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateBookingRequestUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Bookings\\CreateBookingRequestUseCase.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Application\\Bookings\\CreateBookingRequestUseCase.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Bookings\\CreateBookingRequestUseCase.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Application\\Bookings\\CreateBookingRequestUseCase.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T05:35:01.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DecideBookingRequestUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Bookings\\DecideBookingRequestUseCase.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Application\\Bookings\\DecideBookingRequestUseCase.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Bookings\\DecideBookingRequestUseCase.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Application\\Bookings\\DecideBookingRequestUseCase.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T05:34:58.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Abstractions\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Application\\Abstractions\\IBookingRepository.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Abstractions\\IBookingRepository.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Application\\Abstractions\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T05:33:37.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBookingRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Abstractions\\IBookingRequestRepository.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Application\\Abstractions\\IBookingRequestRepository.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Application\\Abstractions\\IBookingRequestRepository.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Application\\Abstractions\\IBookingRequestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T05:33:36.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AvailabilitySlot.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Domain\\AvailabilitySlot.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Domain\\AvailabilitySlot.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Domain\\AvailabilitySlot.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Domain\\AvailabilitySlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T07:55:21.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TeacherProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Domain\\TeacherProfile.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Domain\\TeacherProfile.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Domain\\TeacherProfile.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Domain\\TeacherProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T07:55:14.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AvailabilityTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Domain\\AvailabilityTemplate.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Domain\\AvailabilityTemplate.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Domain\\AvailabilityTemplate.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Domain\\AvailabilityTemplate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T07:55:08.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TeachingPlatformDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Infrastructure\\TeachingPlatformDbContextFactory.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Infrastructure\\TeachingPlatformDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Infrastructure\\TeachingPlatformDbContextFactory.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Infrastructure\\TeachingPlatformDbContextFactory.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T06:41:03.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TeachingPlatformDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Infrastructure\\TeachingPlatformDbContext.cs",
+              "RelativeDocumentMoniker": "src\\TeachingPlatform.Infrastructure\\TeachingPlatformDbContext.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\TeachingPlatform.Infrastructure\\TeachingPlatformDbContext.cs",
+              "RelativeToolTip": "src\\TeachingPlatform.Infrastructure\\TeachingPlatformDbContext.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T06:41:02.495Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

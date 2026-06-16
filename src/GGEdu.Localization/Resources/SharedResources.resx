@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Auth.EmailOrPasswordError" xml:space="preserve">
+    <value>Wrong email or password!</value>
+  </data>
+  <data name="Auth.UserAlreadyExistError" xml:space="preserve">
+    <value>This user already exist!</value>
+  </data>
+  <data name="Auth.UserCantBeFound" xml:space="preserve">
+    <value>User can't be found!</value>
+  </data>
+  <data name="Auth.UserCreated" xml:space="preserve">
+    <value>User created!</value>
+  </data>
+  <data name="Crs.CourseCodeAlreadyExistError" xml:space="preserve">
+    <value>This course code alredy exist!</value>
+  </data>
+  <data name="Crs.CourseNotExistError" xml:space="preserve">
+    <value>This course not exist!</value>
+  </data>
+  <data name="Crs.DuplicateCodeRequestError" xml:space="preserve">
+    <value>Duplicate codes in request!</value>
+  </data>
+  <data name="Gnrl.ServerError" xml:space="preserve">
+    <value>Server error!</value>
+  </data>
+  <data name="Gnrl.Success" xml:space="preserve">
+    <value>Successful!</value>
+  </data>
+  <data name="Lng.LanguageAlreadyExistError" xml:space="preserve">
+    <value>This language already exist!</value>
+  </data>
+  <data name="Lng.LanguageNotFoundError" xml:space="preserve">
+    <value>This language not found!</value>
+  </data>
+  <data name="Stdt.NotAssignedAsStudent" xml:space="preserve">
+    <value>This user not assigned as a student!</value>
+  </data>
+  <data name="Stdt.StudentCantBeFound" xml:space="preserve">
+    <value>This student can't be found!</value>
+  </data>
+  <data name="Tcr.TeacherCantBeFound" xml:space="preserve">
+    <value>This teacher can't be found!</value>
+  </data>
+  <data name="Tcrcrs.TeacherCourseNotFoundError" xml:space="preserve">
+    <value>This course not found!</value>
+  </data>
+  <data name="Tcr.NotAssignedAsTeacher" xml:space="preserve">
+    <value>This user not assigned as a teacher!</value>
+  </data>
+  <data name="Sub.RequestAlreadySentOrAcceptedError" xml:space="preserve">
+    <value>This sub request already has sent or requested!</value>
+  </data>
+  <data name="Sub.ThereIsNoRequestError" xml:space="preserve">
+    <value>There is no request from this student!</value>
+  </data>
+  <data name="Ct.InvalidTimeRangeError" xml:space="preserve">
+    <value>Invalid time range!</value>
+  </data>
+  <data name="Ct.InvalidDateRangeError" xml:space="preserve">
+    <value>Invalid date range!</value>
+  </data>
+  <data name="Ct.InvalidTimeZoneError" xml:space="preserve">
+    <value>Invalid time zone!</value>
+  </data>
+  <data name="Ct.TemplateOverlapError" xml:space="preserve">
+    <value>Template overlap error!</value>
+  </data>
+  <data name="Ct.TemplateNotFoundError" xml:space="preserve">
+    <value>Course template can't be found!</value>
+  </data>
+  <data name="Sub.NotSubbedTeacherError" xml:space="preserve">
+    <value>You don't have subscription to this Teacher!</value>
+  </data>
+  <data name="Slot.NotAvailableSlotError" xml:space="preserve">
+    <value>There is no slot available!</value>
+  </data>
+  <data name="Bk.BookingsCantBeFoundError" xml:space="preserve">
+    <value>Can't found any booking request!</value>
+  </data>
+  <data name="Bk.StudentBookıngCantBeFoundError" xml:space="preserve">
+    <value>This student's bookıng request can't be found!</value>
+  </data>
+  <data name="Vld.UserEmailCantBeEmpty" xml:space="preserve">
+    <value>Email can't be empty!</value>
+  </data>
+  <data name="Vld.UserEmailFormat" xml:space="preserve">
+    <value>Email format is wrong!</value>
+  </data>
+  <data name="Vld.UserPasswordCantBeEmpty" xml:space="preserve">
+    <value>Password can't be empty!</value>
+  </data>
+  <data name="Vld.UserPasswordFormat" xml:space="preserve">
+    <value>Password must be at least 6 characters long, contain at least one uppercase letter, one digit, and one special character (.!?-_&amp;%/().</value>
+  </data>
+  <data name="Vld.UserFirstNameCantBeEmpty" xml:space="preserve">
+    <value>First name can't be empty!</value>
+  </data>
+  <data name="Vld.UserLastNameCantBeEmpty" xml:space="preserve">
+    <value>Last name can't be empty!</value>
+  </data>
+  <data name="Vld.TeacherCoursePriceCantBeEmpty" xml:space="preserve">
+    <value>Price can't be empty!</value>
+  </data>
+  <data name="Vld.TeacherCoursePrıceMustBeBıggerThanZero" xml:space="preserve">
+    <value>Price must be bigger than 0!</value>
+  </data>
+  <data name="Vld.TeacherCourseDurationMınutesCantBeEmpty" xml:space="preserve">
+    <value>Duration can't be empty!</value>
+  </data>
+  <data name="Vld.TeacherCourseDurationMustBeBiggerThanTenMinutes" xml:space="preserve">
+    <value>Duration must be bigger than 10 minutes!</value>
+  </data>
+  <data name="Vld.TeacherCourseCurrencyCantBeEmpty" xml:space="preserve">
+    <value>Currency can't be empty!</value>
+  </data>
+  <data name="Vld.TeacherCourseCourseIdCantBeEmpty" xml:space="preserve">
+    <value>Course Id can't be empty!</value>
+  </data>
+  <data name="Vld.SubAcceptCantBeEmpty" xml:space="preserve">
+    <value>Is Accept can't be empty!</value>
+  </data>
+  <data name="Vld.CourseTemplateTeacherCourseIdCantBeEmpty" xml:space="preserve">
+    <value>Teacher Course Id can't be empty!</value>
+  </data>
+  <data name="Vld.SubsStudentIdCantBeEmpty" xml:space="preserve">
+    <value>Student Id can't be empty!</value>
+  </data>
+  <data name="Vld.CourseTemplateDayOfWeekCantBeEmpty" xml:space="preserve">
+    <value>Day Of Week can't be empty! </value>
+  </data>
+  <data name="Vld.CourseTemplateStartLocalTimeCantBeEmpty" xml:space="preserve">
+    <value>Start Local Time can't be empty!</value>
+  </data>
+  <data name="Vld.CourseTemplateEndLocalTimeCantBeEmpty" xml:space="preserve">
+    <value>End Local Time can't be empty!</value>
+  </data>
+  <data name="Vld.CourseTemplateTimeZoneIdCantBeEmpty" xml:space="preserve">
+    <value>Time Zone Id can't be empty!</value>
+  </data>
+  <data name="Vld.CourseTemplateAutoGenerateSlotsCantBeEmpty" xml:space="preserve">
+    <value>Auto Generate Slots can't be empty!</value>
+  </data>
+  <data name="Vld.CourseTemplateGenerateDaysAheadCantBeEmpty" xml:space="preserve">
+    <value>Generate Days Ahead can't be empty!</value>
+  </data>
+  <data name="Vld.CourseTemplateIsActiveCantBeEmpty" xml:space="preserve">
+    <value>Is Active can't be empty!</value>
+  </data>
+  <data name="Vld.CourseSlotCourseTemplateIdCantBeEmpty" xml:space="preserve">
+    <value>Course Template Id can't be empty!</value>
+  </data>
+  <data name="Vld.CourseSlotFromDateCantBeEmpty" xml:space="preserve">
+    <value>From Date can't be empty!</value>
+  </data>
+  <data name="Vld.CourseSlotToDateCantBeEmpty" xml:space="preserve">
+    <value>To Date can't be empty!</value>
+  </data>
+  <data name="Vld.BookingTeacherIdCantBeEmpty" xml:space="preserve">
+    <value>Teacher Id can't be empty!</value>
+  </data>
+  <data name="Vld.BookingAvailabilityCourseSlotIdCantBeEmpty" xml:space="preserve">
+    <value>Availability Course Slot Id can't be empty!</value>
+  </data>
+  <data name="Vld.BookingStudentIdCantBeEmpty" xml:space="preserve">
+    <value>Student Id can't be empty!</value>
+  </data>
+  <data name="Vld.BookingIsAcceptedCantBeEmpty" xml:space="preserve">
+    <value>Is Accepted can't be empty!</value>
+  </data>
+  <data name="Sub.SubscribersCantBeFound" xml:space="preserve">
+    <value>Subscribers can't be found!</value>
+  </data>
+  <data name="Vld.CourseTemplateNameCantBeEmpty" xml:space="preserve">
+    <value>Name can't be empty!</value>
+  </data>
+</root>

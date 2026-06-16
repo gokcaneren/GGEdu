@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Auth.EmailOrPasswordError" xml:space="preserve">
+    <value>Hatalı email veya şifre!</value>
+  </data>
+  <data name="Auth.UserAlreadyExistError" xml:space="preserve">
+    <value>Bu kullanıcı mevcut!</value>
+  </data>
+  <data name="Auth.UserCantBeFound" xml:space="preserve">
+    <value>Kullanıcı bulunamadı!</value>
+  </data>
+  <data name="Auth.UserCreated" xml:space="preserve">
+    <value>Kullanıcı oluşturuldu!</value>
+  </data>
+  <data name="Crs.CourseCodeAlreadyExistError" xml:space="preserve">
+    <value>Bu kurs kodu mevcut!</value>
+  </data>
+  <data name="Crs.CourseNotExistError" xml:space="preserve">
+    <value>Bu kurs mevcut değil!</value>
+  </data>
+  <data name="Crs.DuplicateCodeRequestError" xml:space="preserve">
+    <value>İstekte kod tekrarı mevcut!</value>
+  </data>
+  <data name="Gnrl.ServerError" xml:space="preserve">
+    <value>Sunucu hatası!</value>
+  </data>
+  <data name="Gnrl.Success" xml:space="preserve">
+    <value>Başarılı!</value>
+  </data>
+  <data name="Lng.LanguageAlreadyExistError" xml:space="preserve">
+    <value>Bu dil mevcut!</value>
+  </data>
+  <data name="Lng.LanguageNotFoundError" xml:space="preserve">
+    <value>Bu dil bulunamadı!</value>
+  </data>
+  <data name="Stdt.NotAssignedAsStudent" xml:space="preserve">
+    <value>Bu kullanıcı öğrenci olarak kayıtlı değil!</value>
+  </data>
+  <data name="Stdt.StudentCantBeFound" xml:space="preserve">
+    <value>Bu öğrenci mevcut değil!</value>
+  </data>
+  <data name="Tcr.TeacherCantBeFound" xml:space="preserve">
+    <value>Bu öğretmen mevcut değil!</value>
+  </data>
+  <data name="Tcrcrs.TeacherCourseNotFoundError" xml:space="preserve">
+    <value>Bu kurs bulunamadı!</value>
+  </data>
+  <data name="Tcr.NotAssignedAsTeacher" xml:space="preserve">
+    <value>Bu kullanıcı öğretmen olarak kayıtlı değil!</value>
+  </data>
+  <data name="Sub.RequestAlreadySentOrAcceptedError" xml:space="preserve">
+    <value>Bu abonelik isteği zaten gönderildi veya kabul edildi!</value>
+  </data>
+  <data name="Sub.ThereIsNoRequestError" xml:space="preserve">
+    <value>Bu öğrenciden gelen bir abonelik isteği yok!</value>
+  </data>
+  <data name="Ct.InvalidTimeRangeError" xml:space="preserve">
+    <value>Geçersiz zaman aralığı!</value>
+  </data>
+  <data name="Ct.InvalidDateRangeError" xml:space="preserve">
+    <value>Geçersiz tarih aralığı!</value>
+  </data>
+  <data name="Ct.InvalidTimeZoneError" xml:space="preserve">
+    <value>Geçersiz saat dilimi!</value>
+  </data>
+  <data name="Ct.TemplateOverlapError" xml:space="preserve">
+    <value>Şablon zaman çakışması!</value>
+  </data>
+  <data name="Ct.TemplateNotFoundError" xml:space="preserve">
+    <value>Kurs şablonu bulunamadı!</value>
+  </data>
+  <data name="Sub.NotSubbedTeacherError" xml:space="preserve">
+    <value>Bu öğretmene abone değilsiniz!</value>
+  </data>
+  <data name="Slot.NotAvailableSlotError" xml:space="preserve">
+    <value>Uygun ders bulunamadı!</value>
+  </data>
+  <data name="Bk.BookingsCantBeFoundError" xml:space="preserve">
+    <value>Ders isteği bulunamadı!</value>
+  </data>
+  <data name="Bk.StudentBookıngCantBeFoundError" xml:space="preserve">
+    <value>Bu öğrenciden gelen bir ders isteği bulunamadı!</value>
+  </data>
+  <data name="Vld.UserEmailCantBeEmpty" xml:space="preserve">
+    <value>Email boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.UserEmailFormat" xml:space="preserve">
+    <value>Hatalı email formatı!</value>
+  </data>
+  <data name="Vld.UserPasswordCantBeEmpty" xml:space="preserve">
+    <value>Şifre boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.UserPasswordFormat" xml:space="preserve">
+    <value>Şifre en az 6 karakter uzunluğunda olmalı, en az bir büyük harf, bir rakam ve bir özel karakter (.!?-_&amp;%/() içermelidir.</value>
+  </data>
+  <data name="Vld.UserFirstNameCantBeEmpty" xml:space="preserve">
+    <value>İsim boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.UserLastNameCantBeEmpty" xml:space="preserve">
+    <value>Soy isim boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.TeacherCoursePriceCantBeEmpty" xml:space="preserve">
+    <value>Ücret boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.TeacherCoursePrıceMustBeBıggerThanZero" xml:space="preserve">
+    <value>Ücret 0'dan büyük olmalı!</value>
+  </data>
+  <data name="Vld.TeacherCourseDurationMınutesCantBeEmpty" xml:space="preserve">
+    <value>Süre boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.TeacherCourseDurationMustBeBiggerThanTenMinutes" xml:space="preserve">
+    <value>Süre 10 dakikadan fazla olmalı!</value>
+  </data>
+  <data name="Vld.TeacherCourseCurrencyCantBeEmpty" xml:space="preserve">
+    <value>Döviz boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.TeacherCourseCourseIdCantBeEmpty" xml:space="preserve">
+    <value>Course Id boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.SubAcceptCantBeEmpty" xml:space="preserve">
+    <value>Is Accept alanı boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.CourseTemplateTeacherCourseIdCantBeEmpty" xml:space="preserve">
+    <value>Teacher Course Id boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.SubsStudentIdCantBeEmpty" xml:space="preserve">
+    <value>Student Id boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.CourseTemplateDayOfWeekCantBeEmpty" xml:space="preserve">
+    <value>Day Of Week boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.CourseTemplateStartLocalTimeCantBeEmpty" xml:space="preserve">
+    <value>Start Local Time boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.CourseTemplateEndLocalTimeCantBeEmpty" xml:space="preserve">
+    <value>End Local Time boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.CourseTemplateTimeZoneIdCantBeEmpty" xml:space="preserve">
+    <value>Time Zone Id boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.CourseTemplateAutoGenerateSlotsCantBeEmpty" xml:space="preserve">
+    <value>Auto Generate Slots boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.CourseTemplateGenerateDaysAheadCantBeEmpty" xml:space="preserve">
+    <value>Generate Days Ahead boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.CourseTemplateIsActiveCantBeEmpty" xml:space="preserve">
+    <value>Is Active boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.CourseSlotCourseTemplateIdCantBeEmpty" xml:space="preserve">
+    <value>Course Template Id boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.CourseSlotFromDateCantBeEmpty" xml:space="preserve">
+    <value>From Date boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.CourseSlotToDateCantBeEmpty" xml:space="preserve">
+    <value>To Date boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.BookingTeacherIdCantBeEmpty" xml:space="preserve">
+    <value>Teacher Id boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.BookingAvailabilityCourseSlotIdCantBeEmpty" xml:space="preserve">
+    <value>Availability Course Slot Id boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.BookingStudentIdCantBeEmpty" xml:space="preserve">
+    <value>Student Id boş bırakılamaz!</value>
+  </data>
+  <data name="Vld.BookingIsAcceptedCantBeEmpty" xml:space="preserve">
+    <value>Is Accepted boş bırakılamaz!</value>
+  </data>
+  <data name="Sub.SubscribersCantBeFound" xml:space="preserve">
+    <value>Aboneler bulunamadı!</value>
+  </data>
+  <data name="Vld.CourseTemplateNameCantBeEmpty" xml:space="preserve">
+    <value>İsim boş bırakılamaz!</value>
+  </data>
+</root>
