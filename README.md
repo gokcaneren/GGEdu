@@ -1,1 +1,1 @@
-# GGEdu
+# Education Platform Project
