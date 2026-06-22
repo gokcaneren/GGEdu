@@ -7,4 +7,7 @@
     <Project Path="src/GGEdu.Infrastructure/GGEdu.Infrastructure.csproj" Id="58dd40fc-1043-449c-9a25-1cebeb4ab136" />
     <Project Path="src/GGEdu.Localization/GGEdu.Localization.csproj" Id="0a11d57d-39d1-4c1a-9a30-8f558732d7a5" />
   </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/GGEdu.Test/GGEdu.Test.csproj" Id="d31795c1-62a5-4e49-92da-a0e8e99ee4dc" />
+  </Folder>
 </Solution>

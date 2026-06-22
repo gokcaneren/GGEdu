@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.api\\controllers\\courses\\coursetemplatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|solutionrelative:src\\ggedu.api\\controllers\\courses\\coursetemplatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93634CA1-5A23-4BBB-9C2F-72F7BBBD5E6D}|src\\GGEdu.Application\\GGEdu.Application.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.application\\services\\teachers\\coursetemplateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93634CA1-5A23-4BBB-9C2F-72F7BBBD5E6D}|src\\GGEdu.Application\\GGEdu.Application.csproj|solutionrelative:src\\ggedu.application\\services\\teachers\\coursetemplateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D23694BB-1C53-4828-B33C-124CBE60C0D7}|src\\GGEdu.Core\\GGEdu.Core.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.core\\services\\teachers\\icoursetemplateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D23694BB-1C53-4828-B33C-124CBE60C0D7}|src\\GGEdu.Core\\GGEdu.Core.csproj|solutionrelative:src\\ggedu.core\\services\\teachers\\icoursetemplateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58DD40FC-1043-449C-9A25-1CEBEB4AB136}|src\\GGEdu.Infrastructure\\GGEdu.Infrastructure.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.infrastructure\\repositories\\teachers\\coursetemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58DD40FC-1043-449C-9A25-1CEBEB4AB136}|src\\GGEdu.Infrastructure\\GGEdu.Infrastructure.csproj|solutionrelative:src\\ggedu.infrastructure\\repositories\\teachers\\coursetemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D23694BB-1C53-4828-B33C-124CBE60C0D7}|src\\GGEdu.Core\\GGEdu.Core.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.core\\repositories\\teachers\\icoursetemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D23694BB-1C53-4828-B33C-124CBE60C0D7}|src\\GGEdu.Core\\GGEdu.Core.csproj|solutionrelative:src\\ggedu.core\\repositories\\teachers\\icoursetemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D31795C1-62A5-4E49-92DA-A0E8E99EE4DC}|test\\GGEdu.Test\\GGEdu.Test.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\test\\ggedu.test\\bookingservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31795C1-62A5-4E49-92DA-A0E8E99EE4DC}|test\\GGEdu.Test\\GGEdu.Test.csproj|solutionrelative:test\\ggedu.test\\bookingservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICourseTemplateRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Core\\Repositories\\Teachers\\ICourseTemplateRepository.cs",
-              "RelativeDocumentMoniker": "src\\GGEdu.Core\\Repositories\\Teachers\\ICourseTemplateRepository.cs",
-              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Core\\Repositories\\Teachers\\ICourseTemplateRepository.cs",
-              "RelativeToolTip": "src\\GGEdu.Core\\Repositories\\Teachers\\ICourseTemplateRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T08:06:30.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CourseTemplateRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Infrastructure\\Repositories\\Teachers\\CourseTemplateRepository.cs",
-              "RelativeDocumentMoniker": "src\\GGEdu.Infrastructure\\Repositories\\Teachers\\CourseTemplateRepository.cs",
-              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Infrastructure\\Repositories\\Teachers\\CourseTemplateRepository.cs",
-              "RelativeToolTip": "src\\GGEdu.Infrastructure\\Repositories\\Teachers\\CourseTemplateRepository.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T08:05:16.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICourseTemplateService.cs",
-              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Core\\Services\\Teachers\\ICourseTemplateService.cs",
-              "RelativeDocumentMoniker": "src\\GGEdu.Core\\Services\\Teachers\\ICourseTemplateService.cs",
-              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Core\\Services\\Teachers\\ICourseTemplateService.cs",
-              "RelativeToolTip": "src\\GGEdu.Core\\Services\\Teachers\\ICourseTemplateService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wCMAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T08:03:08.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CourseTemplateService.cs",
-              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Application\\Services\\Teachers\\CourseTemplateService.cs",
-              "RelativeDocumentMoniker": "src\\GGEdu.Application\\Services\\Teachers\\CourseTemplateService.cs",
-              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Application\\Services\\Teachers\\CourseTemplateService.cs",
-              "RelativeToolTip": "src\\GGEdu.Application\\Services\\Teachers\\CourseTemplateService.cs",
-              "ViewState": "AgIAAJEBAAAAAAAAAAAiwKEBAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T08:08:31.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CourseTemplateController.cs",
-              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Controllers\\Courses\\CourseTemplateController.cs",
-              "RelativeDocumentMoniker": "src\\GGEdu.API\\Controllers\\Courses\\CourseTemplateController.cs",
-              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Controllers\\Courses\\CourseTemplateController.cs",
-              "RelativeToolTip": "src\\GGEdu.API\\Controllers\\Courses\\CourseTemplateController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwDoAAAAJAAAAAAAAAA==",
+              "Title": "BookingServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\test\\GGEdu.Test\\BookingServiceTests.cs",
+              "RelativeDocumentMoniker": "test\\GGEdu.Test\\BookingServiceTests.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\test\\GGEdu.Test\\BookingServiceTests.cs",
+              "RelativeToolTip": "test\\GGEdu.Test\\BookingServiceTests.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAIwEIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T08:01:38.908Z",
+              "WhenOpened": "2026-06-22T12:08:52.801Z",
               "EditorCaption": ""
             }
           ]
