@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using FluentValidation.AspNetCore;
 using GGEdu.Application.Helpers;
 using GGEdu.Application.Validations.Users;
 using Microsoft.Extensions.Configuration;

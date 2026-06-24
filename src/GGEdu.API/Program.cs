@@ -1,3 +1,4 @@
+using FluentValidation.AspNetCore;
 using GGEdu.API.Filters;
 using GGEdu.API.Middlewares;
 using GGEdu.Application.Extensions;
@@ -36,6 +37,8 @@ if (builder.Environment.IsDevelopment())
 }
 
 builder.Services.AddControllers(options => options.Filters.Add(new ValidateFilterAttribute()));
+builder.Services.AddFluentValidationAutoValidation();
+
 
 // Swagger
 builder.Services.AddEndpointsApiExplorer();

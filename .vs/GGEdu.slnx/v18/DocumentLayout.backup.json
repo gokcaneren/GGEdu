@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93634CA1-5A23-4BBB-9C2F-72F7BBBD5E6D}|src\\GGEdu.Application\\GGEdu.Application.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.application\\logging\\logbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93634CA1-5A23-4BBB-9C2F-72F7BBBD5E6D}|src\\GGEdu.Application\\GGEdu.Application.csproj|solutionrelative:src\\ggedu.application\\logging\\logbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.api\\ggedu.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|solutionrelative:src\\ggedu.api\\ggedu.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.api\\middlewares\\loggingmiddeware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|solutionrelative:src\\ggedu.api\\middlewares\\loggingmiddeware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|solutionrelative:src\\ggedu.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.api\\filters\\validatefilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|solutionrelative:src\\ggedu.api\\filters\\validatefilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93634CA1-5A23-4BBB-9C2F-72F7BBBD5E6D}|src\\GGEdu.Application\\GGEdu.Application.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.application\\ggedu.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{93634CA1-5A23-4BBB-9C2F-72F7BBBD5E6D}|src\\GGEdu.Application\\GGEdu.Application.csproj|solutionrelative:src\\ggedu.application\\ggedu.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GGEdu.API",
-              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\GGEdu.API.csproj",
-              "RelativeDocumentMoniker": "src\\GGEdu.API\\GGEdu.API.csproj",
-              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\GGEdu.API.csproj",
-              "RelativeToolTip": "src\\GGEdu.API\\GGEdu.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-24T09:26:56.365Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoggingMiddeware.cs",
-              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Middlewares\\LoggingMiddeware.cs",
-              "RelativeDocumentMoniker": "src\\GGEdu.API\\Middlewares\\LoggingMiddeware.cs",
-              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Middlewares\\LoggingMiddeware.cs",
-              "RelativeToolTip": "src\\GGEdu.API\\Middlewares\\LoggingMiddeware.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwDMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T08:33:23.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\GGEdu.API\\Program.cs",
               "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Program.cs",
               "RelativeToolTip": "src\\GGEdu.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T08:33:21.209Z",
+              "WhenOpened": "2026-06-24T10:00:20.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LogBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Application\\Logging\\LogBuilder.cs",
-              "RelativeDocumentMoniker": "src\\GGEdu.Application\\Logging\\LogBuilder.cs",
-              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Application\\Logging\\LogBuilder.cs",
-              "RelativeToolTip": "src\\GGEdu.Application\\Logging\\LogBuilder.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAASwCsAAAANAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ValidateFilterAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Filters\\ValidateFilterAttribute.cs",
+              "RelativeDocumentMoniker": "src\\GGEdu.API\\Filters\\ValidateFilterAttribute.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Filters\\ValidateFilterAttribute.cs",
+              "RelativeToolTip": "src\\GGEdu.API\\Filters\\ValidateFilterAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T08:07:17.355Z",
+              "WhenOpened": "2026-06-24T09:58:37.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GGEdu.Application",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Application\\GGEdu.Application.csproj",
+              "RelativeDocumentMoniker": "src\\GGEdu.Application\\GGEdu.Application.csproj",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Application\\GGEdu.Application.csproj",
+              "RelativeToolTip": "src\\GGEdu.Application\\GGEdu.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-24T09:58:16.695Z",
               "EditorCaption": ""
             }
           ]
