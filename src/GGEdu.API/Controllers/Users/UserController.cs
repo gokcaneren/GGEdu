@@ -42,5 +42,17 @@ namespace GGEdu.API.Controllers.Users
         {
             return await _userService.SignInAsync(userSignInInputDto, cancellationToken);
         }
+
+        //TODO: This method will be changed.
+        [HttpGet("verify/{token}")]
+        public async Task<IActionResult> VerifyEmailAsync(
+        string token,
+        CancellationToken cancellationToken = default)
+        {
+            var result = await _userService.VerifyEmailAsync(token, cancellationToken);
+
+            return result ? Redirect("http://localhost:3000/tr/login?verified=true")
+                : BadRequest();
+        }
     }
 }

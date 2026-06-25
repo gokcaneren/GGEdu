@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using GGEdu.Application.Utilities;
+using GGEdu.Core.DTOs.Emails.Input;
 using GGEdu.Core.DTOs.Users.Inputs;
 using GGEdu.Core.DTOs.Users.Outputs;
 using GGEdu.Core.Entities.Students;
@@ -7,6 +8,7 @@ using GGEdu.Core.Entities.Teachers;
 using GGEdu.Core.Entities.Users;
 using GGEdu.Core.Enums;
 using GGEdu.Core.Repositories.Users;
+using GGEdu.Core.Services;
 using GGEdu.Core.Services.Users;
 using GGEdu.Core.UnitOfWorks;
 using GGEdu.Core.Utilities;
@@ -22,6 +24,7 @@ namespace GGEdu.Application.Services.Users
 
         private readonly IAuthService _authService;
         private readonly ICurrentUserService _currentUserService;
+        private readonly IEmailNotificationService _emailNotificationService;
         private readonly IUnitOfWork _unitOfWork;
 
         private readonly IMapper _mapper;
@@ -34,7 +37,8 @@ namespace GGEdu.Application.Services.Users
             IStringLocalizer<SharedResources> localizer,
             IUnitOfWork unitOfWork,
             ICurrentUserService currentUserService,
-            IMapper mapper)
+            IMapper mapper,
+            IEmailNotificationService emailNotificationService)
         {
             _userRepository = userRepository;
             _authService = authService;
@@ -42,6 +46,7 @@ namespace GGEdu.Application.Services.Users
             _unitOfWork = unitOfWork;
             _currentUserService = currentUserService;
             _mapper = mapper;
+            _emailNotificationService = emailNotificationService;
         }
 
         public async Task<ApiResponse<UserProfileOutputDto>> GetProfileAsync(CancellationToken cancellationToken = default)
@@ -92,20 +97,31 @@ namespace GGEdu.Application.Services.Users
                     Gender = userRegisterInputDto.Gender
                 };
 
+
                 if (userRegisterInputDto.IsTeacher)
                 {
                     newUser.Teacher = new Teacher();
-
-                    await _userRepository.CreateAsync(newUser, autoSave: false, cancellationToken);
-                    await _unitOfWork.CommitAsync(cancellationToken);
-
-                    return ApiResponse<bool>.SuccessResponse(HttpStatusCode.Created, _localizer["Auth.UserCreated"], true);
+                }
+                else
+                {
+                    newUser.Student = new Student();
                 }
 
-                newUser.Student = new Student();
+                newUser.EmailVerificationToken = CreateEmailVerificationToken();
+                newUser.EmailVerificationSentAt = DateTime.UtcNow;
 
                 await _userRepository.CreateAsync(newUser, autoSave: false, cancellationToken);
                 await _unitOfWork.CommitAsync(cancellationToken);
+
+                _ = Task.Run(async () =>
+                    await _emailNotificationService.SendEmailVerificationMail(
+                        new EmailVerificationInputDto
+                        {
+                            Email = newUser.Email,
+                            FirstName = newUser.FirstName,
+                            Token = newUser.EmailVerificationToken
+                        }),
+                    CancellationToken.None);
 
                 return ApiResponse<bool>.SuccessResponse(HttpStatusCode.Created, _localizer["Auth.UserCreated"], true);
             }
@@ -113,6 +129,14 @@ namespace GGEdu.Application.Services.Users
             {
                 throw;
             }
+        }
+
+        private string CreateEmailVerificationToken()
+        {
+            return Convert.ToBase64String(Guid.NewGuid().ToByteArray())
+            .Replace("+", "-")
+            .Replace("/", "_")
+            .Replace("=", "");
         }
 
         public async Task<ApiResponse<UserSignInOutputDto>> SignInAsync(
@@ -147,6 +171,41 @@ namespace GGEdu.Application.Services.Users
                 };
 
                 return ApiResponse<UserSignInOutputDto>.SuccessResponse(HttpStatusCode.OK, _localizer["Gnrl.Success"], userSignInOutput);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public async Task<bool> VerifyEmailAsync(
+            string token,
+            CancellationToken cancellationToken = default)
+        {
+            try
+            {
+                var user = await _userRepository.GetByAsync(c => c.EmailVerificationToken.Equals(token), cancellationToken);
+
+                if (user == null)
+                {
+                    return false;
+                }
+
+                if (user.EmailConfirmed)
+                {
+                    return false;
+                }
+
+                if (user.EmailVerificationSentAt < DateTime.UtcNow.AddHours(-24))
+                {
+                    return false;
+                }
+
+                user.EmailConfirmed = true;
+                user.EmailVerificationToken = null;
+
+                await _unitOfWork.CommitAsync(cancellationToken);
+                return true;
             }
             catch (Exception)
             {

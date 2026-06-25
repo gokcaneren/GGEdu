@@ -18,6 +18,8 @@ namespace GGEdu.Infrastructure.Configurations.Users
             builder.Property(c => c.Email).IsRequired();
             builder.Property(c => c.NormalizedEmail).IsRequired();
             builder.Property(c => c.EmailConfirmed).IsRequired();
+            builder.Property(c => c.EmailVerificationToken).IsRequired(false);
+            builder.Property(c => c.EmailVerificationSentAt).IsRequired(false);
 
             builder.Property(c => c.PasswordHash).IsRequired();
             builder.Property(c => c.SecurityStamp).IsRequired(false);

@@ -28,7 +28,7 @@ namespace GGEdu.API.Middlewares
 
         public async Task InvokeAsync(HttpContext context)
         {
-            if (context.Request.Path.Equals(PathContants.LoginPath))
+            if (context.Request.Path.Equals(PathConstants.LoginPath))
             {
                 await _next.Invoke(context);
                 return;

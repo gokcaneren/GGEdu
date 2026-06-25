@@ -9,7 +9,10 @@ namespace GGEdu.Core.Entities.Users
         public string NormalizedEmail { get; set; }
         public string PasswordHash { get; set; }
         public virtual string? SecurityStamp { get; set; }
+
         public virtual bool EmailConfirmed { get; set; }
+        public string? EmailVerificationToken { get; set; }
+        public DateTime? EmailVerificationSentAt { get; set; }
 
         public string FirstName { get; set; }
         public string LastName { get; set; }

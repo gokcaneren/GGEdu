@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|solutionrelative:src\\ggedu.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.api\\filters\\validatefilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EDEC9A2-F32B-F9C8-3653-9327BE574FB6}|src\\GGEdu.API\\GGEdu.API.csproj|solutionrelative:src\\ggedu.api\\filters\\validatefilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93634CA1-5A23-4BBB-9C2F-72F7BBBD5E6D}|src\\GGEdu.Application\\GGEdu.Application.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.application\\ggedu.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{93634CA1-5A23-4BBB-9C2F-72F7BBBD5E6D}|src\\GGEdu.Application\\GGEdu.Application.csproj|solutionrelative:src\\ggedu.application\\ggedu.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B6FDDC-081A-4AE2-9ED8-077AD743C270}|src\\GGEdu.CompositionRoot\\GGEdu.CompositionRoot.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.compositionroot\\ggedu.compositionroot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{46B6FDDC-081A-4AE2-9ED8-077AD743C270}|src\\GGEdu.CompositionRoot\\GGEdu.CompositionRoot.csproj|solutionrelative:src\\ggedu.compositionroot\\ggedu.compositionroot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DD40FC-1043-449C-9A25-1CEBEB4AB136}|src\\GGEdu.Infrastructure\\GGEdu.Infrastructure.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.infrastructure\\extensions\\httpclientextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58DD40FC-1043-449C-9A25-1CEBEB4AB136}|src\\GGEdu.Infrastructure\\GGEdu.Infrastructure.csproj|solutionrelative:src\\ggedu.infrastructure\\extensions\\httpclientextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DD40FC-1043-449C-9A25-1CEBEB4AB136}|src\\GGEdu.Infrastructure\\GGEdu.Infrastructure.csproj|c:\\users\\gok\\desktop\\.net\\ggedu\\src\\ggedu.infrastructure\\extensions\\infrastructurebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58DD40FC-1043-449C-9A25-1CEBEB4AB136}|src\\GGEdu.Infrastructure\\GGEdu.Infrastructure.csproj|solutionrelative:src\\ggedu.infrastructure\\extensions\\infrastructurebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\GGEdu.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Program.cs",
-              "RelativeToolTip": "src\\GGEdu.API\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:00:20.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ValidateFilterAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Filters\\ValidateFilterAttribute.cs",
-              "RelativeDocumentMoniker": "src\\GGEdu.API\\Filters\\ValidateFilterAttribute.cs",
-              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.API\\Filters\\ValidateFilterAttribute.cs",
-              "RelativeToolTip": "src\\GGEdu.API\\Filters\\ValidateFilterAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:58:37.441Z",
+              "Title": "GGEdu.CompositionRoot",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.CompositionRoot\\GGEdu.CompositionRoot.csproj",
+              "RelativeDocumentMoniker": "src\\GGEdu.CompositionRoot\\GGEdu.CompositionRoot.csproj",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.CompositionRoot\\GGEdu.CompositionRoot.csproj",
+              "RelativeToolTip": "src\\GGEdu.CompositionRoot\\GGEdu.CompositionRoot.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-25T08:53:16.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "HttpClientExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Infrastructure\\Extensions\\HttpClientExtensions.cs",
+              "RelativeDocumentMoniker": "src\\GGEdu.Infrastructure\\Extensions\\HttpClientExtensions.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Infrastructure\\Extensions\\HttpClientExtensions.cs",
+              "RelativeToolTip": "src\\GGEdu.Infrastructure\\Extensions\\HttpClientExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T08:52:05.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InfrastructureBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Infrastructure\\Extensions\\InfrastructureBuilder.cs",
+              "RelativeDocumentMoniker": "src\\GGEdu.Infrastructure\\Extensions\\InfrastructureBuilder.cs",
+              "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Infrastructure\\Extensions\\InfrastructureBuilder.cs",
+              "RelativeToolTip": "src\\GGEdu.Infrastructure\\Extensions\\InfrastructureBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T08:52:00.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "GGEdu.Application",
               "DocumentMoniker": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Application\\GGEdu.Application.csproj",
               "RelativeDocumentMoniker": "src\\GGEdu.Application\\GGEdu.Application.csproj",
               "ToolTip": "C:\\Users\\Gok\\Desktop\\.net\\GGEdu\\src\\GGEdu.Application\\GGEdu.Application.csproj",
               "RelativeToolTip": "src\\GGEdu.Application\\GGEdu.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-24T09:58:16.695Z",
+              "WhenOpened": "2026-06-25T08:51:58.671Z",
               "EditorCaption": ""
             }
           ]

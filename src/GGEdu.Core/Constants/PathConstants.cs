@@ -2,7 +2,7 @@
 
 namespace GGEdu.Core.Constants
 {
-    public static class PathContants
+    public static class PathConstants
     {
         public const string LoginPath = "/api/User/signin";
     }

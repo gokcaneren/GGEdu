@@ -16,5 +16,9 @@ namespace GGEdu.Core.Services.Users
 
         Task<ApiResponse<UserProfileOutputDto>> GetProfileAsync(
             CancellationToken cancellationToken = default);
+
+        Task<bool> VerifyEmailAsync(
+            string token,
+            CancellationToken cancellationToken = default);
     }
 }

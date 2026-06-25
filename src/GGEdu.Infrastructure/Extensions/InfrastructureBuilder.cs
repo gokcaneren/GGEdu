@@ -14,6 +14,8 @@ namespace GGEdu.Infrastructure.Extensions
                 options.UseNpgsql(configuration["ConnectionStrings:GGEduDb"], c =>
                 c.MigrationsAssembly(Assembly.GetAssembly(typeof(GGEduContext))!.GetName().Name)));
 
+            services.BuildHttpClients(configuration);
+
             return services;
         }
     }
