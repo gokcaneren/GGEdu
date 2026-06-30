@@ -13,8 +13,8 @@ namespace GGEdu.Application.Validations.Subscriptions
                 NotEmpty().WithMessage(_localizer["Vld.SubsStudentIdCantBeEmpty"])
                 .NotNull().WithMessage(_localizer["Vld.SubsStudentIdCantBeEmpty"]);
 
-            RuleFor(c => c.IsAccepted).
-                NotEmpty().WithMessage(_localizer["Vld.SubAcceptCantBeEmpty"])
+            RuleFor(c => c.IsAccepted)
+                //NotEmpty().WithMessage(_localizer["Vld.SubAcceptCantBeEmpty"])
                 .NotNull().WithMessage(_localizer["Vld.SubAcceptCantBeEmpty"]);
         }
     }
