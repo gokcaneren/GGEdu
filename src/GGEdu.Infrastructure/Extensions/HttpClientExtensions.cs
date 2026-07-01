@@ -9,9 +9,8 @@ namespace GGEdu.Infrastructure.Extensions
     {
         public static IServiceCollection BuildHttpClients(this IServiceCollection services, IConfiguration configuration)
         {
+            services.Configure<N8NSettings>(configuration.GetSection(nameof(N8NSettings)));
             var n8nSettings = configuration.GetSection(nameof(N8NSettings)).Get<N8NSettings>();
-
-            services.AddSingleton<N8NSettings>();
 
             services.AddHttpClient(HttpClientConstants.N8N, client =>
             {

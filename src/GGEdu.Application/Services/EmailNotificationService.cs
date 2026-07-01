@@ -1,6 +1,7 @@
 ﻿using GGEdu.Core.DTOs.Emails.Input;
 using GGEdu.Core.Services;
 using GGEdu.Core.Utilities;
+using Microsoft.Extensions.Options;
 using System.Text;
 using System.Text.Json;
 
@@ -13,10 +14,10 @@ namespace GGEdu.Application.Services
 
         public EmailNotificationService(
             IHttpClientFactory httpClientFactory,
-            N8NSettings n8nSettings)
+            IOptions<N8NSettings> n8nSettings)
         {
             _httpClientFactory = httpClientFactory;
-            _n8nSettings = n8nSettings;
+            _n8nSettings = n8nSettings.Value;
         }
 
         public async Task SendEmailVerificationMail(
